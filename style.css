@@ -1,0 +1,155 @@
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Group Selector */
+h2,h3,p{
+    text-decoration: none;
+}
+
+/* Element Selector */
+h1{
+    color: rgb(230, 146, 20);
+}
+
+p{
+    font-style: italic;
+    font-weight: 500;
+}
+
+a{
+    color: yellow;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* ID Selector */
+#main-header {
+    background-color: #3498db;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Class Selector */
+.nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+/* Class Selector with pseudo-class */
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+/* Class Selector for Hero Section */
+.hero-section {
+    background-color: #2980b9;
+    color: white;
+    padding: 50px 10px;
+    text-align: center;
+}
+
+/* Class Selector with pseudo-element */
+.hero-section h2::after {
+    content: '';
+    display: block;
+    margin: 20px auto;
+    width: 50px;
+    height: 3px;
+    background-color: white;
+}
+
+/* Attribute Selector */
+.tutorial-item[data-level="beginner"] {
+    background-color: #e0f7fa;
+}
+
+.tutorial-item[data-level="intermediate"] {
+    background-color: #fff9c4;
+}
+
+.tutorial-item[data-level="advanced"] {
+    background-color: #ffccbc;
+}
+
+/* Class Selector for Tutorial Section */
+.tutorial-section {
+    padding: 50px 20px;
+}
+
+.tutorial-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tutorial-item {
+    width: 30%;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tutorial-item h3 {
+    margin-bottom: 10px;
+}
+
+/* ID Selector for About Section */
+#about {
+    background-color: #d7f1f7;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* Class Selector for Contact Section */
+.contact-section {
+    padding: 50px 20px;
+}
+
+.contact-section form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact-section input, .contact-section textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Class Selector for Button */
+.submit-btn {
+    background-color: #2ecc71;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main-footer {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}

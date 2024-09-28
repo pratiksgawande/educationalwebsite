@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn With Us - Educational Site</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header id="main-header">
+        <nav class="nav-bar">
+            <h1 class="site-title">Learn With Us</h1><br>
+            <ul>
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#tutorials" class="nav-link">Tutorials</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero-section">
+        <h2>Master New Skills with Free Tutorials</h2>
+        <p>Join thousands of learners from around the world.</p><br>
+        <a href="#tutorials" class="btn">Start Learning</a>
+    </section>
+
+    <section id="tutorials" class="tutorial-section">
+        <h2>Popular Tutorials</h2>
+        <div class="tutorial-list">
+            <div class="tutorial-item" data-level="beginner">
+                <h3>HTML Basics</h3>
+                <p>Learn the foundations of HTML and start building webpages.</p>
+            </div>
+            <div class="tutorial-item" data-level="intermediate">
+                <h3>CSS Styling</h3>
+                <p>Understand how to make your websites look beautiful with CSS.</p>
+            </div>
+            <div class="tutorial-item" data-level="advanced">
+                <h3>JavaScript Essentials</h3>
+                <p>Learn to add interactivity to your site using JavaScript.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <p>At Learn With Us, we provide high-quality tutorials that are easy to follow, helping you build practical skills in various fields of education.</p>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+    </section>
+
+    <footer class="main-footer">
+        <p>...Learn With Us.</p>
+    </footer>
+    <script src="script.js">
+
+    </script>
+</body>
+</html>
